@@ -1,0 +1,76 @@
+body {
+    background-image: url('2454628.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.expense-table th,
+.expense-table td {
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.total-amount {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    color: #fff;
+}
+.select {
+    background-color: transparent; /* Make background transparent */
+     border: 1px solid #ccc; /* Optional: to keep border consistent */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+.option{
+    color: black;
+}
+.name{
+    color: lightgray;
+}

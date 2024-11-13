@@ -1,0 +1,55 @@
+/* Welcome page CSS file */
+
+/* Centering and spacing for headings */
+.heading {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.heading1 {
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.sign-up-button {
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: transparent; 
+    border: solid;
+    border-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.sign-up-button:hover {
+    background-color: blueviolet;
+}
+
+
+.expanse {
+    color: white; 
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    text-decoration: none; 
+}
+
+
+.shortdec {
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 20px;
+    padding: 10px;
+}
